@@ -1,0 +1,24 @@
+<ion-view view-title="Veranstaltungen">
+
+  <div class="bar bar-header">
+    <button class="button icon ion-navicon"></button>
+    <h1 class="title">Header Buttons</h1>
+    <button class="button">Edit</button>
+  </div>
+
+  <ion-content>
+    <!--
+    <div class="button-bar">
+      <a class="button">IQ</a>
+      <a class="button">Asta</a>
+      <a class="button">Karriere</a>
+    </div>
+    -->
+    <ion-list>
+      <ion-item ng-repeat="event in events">
+        {{ event.title }}<br />
+        <small>{{ event.start_time | amDateFormat:'dddd, DoMM.' }}</small>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

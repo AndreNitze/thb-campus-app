@@ -1,1 +1,74 @@
 /* Empty. Add your own CSS if you like */
+body {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14pt;
+  letter-spacing: 0;
+}
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+ion-header-bar.bar-stable.bar.bar-header {
+  background-color: #fff;
+}
+ion-header-bar.bar-stable.bar.bar-header .title {
+  color: #CC0A2F;
+}
+.bar .bar-thb {
+  border-color: #fff;
+  background-color: #fff;
+  background-image: linear-gradient(0deg, #fff, #fff 50%, transparent 50%);
+  color: #CC0A2F;
+}
+.bar .title {
+  color: #CC0A2F;
+  font-size: larger;
+  font-weight: 900;
+}
+.bar .title .campus {
+  color: #000;
+  font-weight: 400;
+}
+/* Informatik: */
+.informatik {
+  color: #00BAE5;
+}
+/* Technik: */
+.technik {
+  color: #83BB20;
+}
+/* Informatik: */
+.wirtschaft {
+  color: #F18400;
+}
+.imprint {
+  background-color: #CC0A2F;
+  color: #fff;
+  height: 100%;
+}
+.imprint-text {
+  padding: 20px;
+  padding-left: 30px;
+  font-size: smaller;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 0.08em;
+  line-height: 1.5em;
+}
+
+.imprint strong {
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  font-size: larger;
+}
+
+.imprint .icon {
+  font-size: 2.5em;
+  letter-spacing: 0.9em;
+}
+
+/* navbar */
+a.item-content {
+  font-size: 1.1em;
+  word-spacing: 0.3em;
+}

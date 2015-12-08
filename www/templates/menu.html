@@ -13,22 +13,30 @@
   </ion-side-menu-content>
 
   <ion-side-menu side="left">
-    <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
+    <ion-header-bar class="bar-thb">
+      <h1 class="title"><strong>THB</strong> <span class="campus">Campus</span></h1>
     </ion-header-bar>
     <ion-content>
       <ion-list>
-        <ion-item menu-close ng-click="login()">
-          Login
+        <!--
+        <ion-item menu-close href="#/app/news">
+          <i class="ion-speakerphone"></i> Aktuelles
         </ion-item>
-        <ion-item menu-close href="#/app/search">
-          Search
+        -->
+        <ion-item menu-close href="#/app/mensa">
+          <i class="ion-android-restaurant"></i> Mensa
         </ion-item>
-        <ion-item menu-close href="#/app/browse">
-          Browse
+        <ion-item menu-close href="#/app/events">
+          <i class="ion-android-calendar"></i> Veranstaltungen
         </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
+        <ion-item menu-close href="#/app/jobs">
+          <i class="ion-briefcase"></i> Jobs
+        </ion-item>
+        <ion-item menu-close href="#/app/train">
+          <i class="ion-android-subway"></i> Straßenbahn
+        </ion-item>
+        <ion-item menu-close href="#/app/info">
+          <i class="ion-ios-information"></i> Info
         </ion-item>
       </ion-list>
     </ion-content>
